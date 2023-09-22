@@ -26,7 +26,7 @@ function App() {
     <h1 className="text-center my-3 text-white">STARWARS <span className="text-warning">CHARACTERS</span>
     </h1>
     
-    <div className="container">
+    <div className="container-fluid">
         <div className="col-sm">
         <div className="row">
         <Cards results={results}/>

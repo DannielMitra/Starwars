@@ -8,7 +8,7 @@ const Cards = ({results}) => {
         display = results.map((x) => {
             let {id, name, height, mass, hair_color, skin_color, eye_color,birth_year, gender, created} = x;
             return (
-                <div key={id} className="col-4 mb-4 position-relative">  
+                <div key={id} className="col-md-4 mb-3 position-relative">  
                     <div className={styles.cards}>
                             <div className="content">
                             <div className="fs-4 fw-bold mb-4 text-warning text-center">{name}</div>
